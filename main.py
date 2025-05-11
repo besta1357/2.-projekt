@@ -1,4 +1,5 @@
 from pprint import pprint as pp
+
 def hraci_pole(pole):
     """
     Vykreslí aktuální stav herního pole.
