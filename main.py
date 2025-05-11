@@ -1,4 +1,5 @@
-"""projekt_2.py: druhý projekt do Engeto Online Python Akademie
+"""
+projekt_2.py: druhý projekt do Engeto Online Python Akademie
 
 author: Peter Šebest
 email: psebest11@gmail.com
