@@ -1,4 +1,8 @@
-from pprint import pprint as pp
+"""projekt_2.py: druhý projekt do Engeto Online Python Akademie
+
+author: Peter Šebest
+email: psebest11@gmail.com
+"""
 
 def hraci_pole(pole):
     """
@@ -37,7 +41,7 @@ def hrej_tah(tah, hrac_na_tahu, pole):
     Provede tah hráče a vykreslí nové pole.
     """
     tah_int = int(tah)
-    pole[tah_int] = hrac_na_tahu
+    pole[tah_int] = hrac_na_tahu            # označí pole hráčem
     hraci_pole(pole)
 
 def kontrola_vstupu(tah, pole):
