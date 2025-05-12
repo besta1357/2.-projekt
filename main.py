@@ -70,7 +70,7 @@ def hlavni_hra():
     pole = {i: " " for i in range(1, 10)}
     hrac_na_tahu = "X"
     dvojita_cara = "=" * 50
-    print()
+    print(dvojita_cara)
     print("Welcome to Tic Tac Toe".center(50))
     print(dvojita_cara)
     print(
