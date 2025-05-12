@@ -50,7 +50,7 @@ def kontrola_vstupu(tah, pole):
     Ověří, zda je vstup hráče platný.
     """
     if not tah.isdigit():
-       return("Zadej číslo")
+       return("Nezadal jsi číslo! Zadej číslo 1-9")
     tah_int = int(tah)   
     if not 1 <= tah_int <= 9:    
        return("Zadej číslo 1-9")
