@@ -100,9 +100,9 @@ def prubeh_hry(pole, hrac_na_tahu):
     while hra_bezi:
         tah = input(f"Player {hrac_na_tahu} | Please enter your move number: ")
         print(dvojita_cara)
-        chyba = kontrola_vstupu(tah, pole)
-        if chyba:
-            print(chyba)
+        chybni_vstup = kontrola_vstupu(tah, pole)
+        if chybni_vstup:
+            print(chybni_vstup)
             print(dvojita_cara)
             continue
 
